@@ -1,25 +1,24 @@
 name = 'Python'
 
-print(len(name))
-print(name[0])
-print(name[len(name) - 1])
-
-print(name[-1])
-print(name[-2])
+print(len(name)) #6
+print(name[0]) #P
+print(name[len(name) - 1])#n
+print(name[-1])#n
+print(name[-2])#o
 
 s = 'Java Programming Language'
 s2 = s[5:16]
 
-print(s2)
+print(s2)#Programming
 
 s3 = s[:4]
 
-print(s3)
+print(s3)#Java
 
 s4 = s[::-1]  # reverses the string after slicing
-
-print(s4)
-
+result=s[-1:0]
+print(s4)#egaugnaL gnimmargorP avaJ
+print(result)
 s = 'Python Programming'
 
 s5 = str(reversed(s))
@@ -41,19 +40,17 @@ print(s6)
 
 
 s7 = 'CYDEO SCHOOL'
-# str(reversed(s7))
 
 print('----------------------')
 
-# print( help(str))
 
 
 print('----------------------')
 
 s = 'python programming language'
 
-# s = s.capitalize()
-s = s.title()
+s = s.capitalize()
+#s = s.title()
 print(s)
 
 s = "            Python           "
@@ -64,8 +61,8 @@ print(s)
 
 s = 'JAVA'
 
-print( s.index('A'))
-print(s.rindex('A'))
+print( s.index('A'))#1
+print(s.rindex('A'))#
 
 s = 'Java Java'
 
