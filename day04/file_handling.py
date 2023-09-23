@@ -1,0 +1,27 @@
+import os
+
+#path='day04/files/Test_Python.txt'
+text_file=open(r"C:\Users\hilal\PycharmProjects\Python_Bootcamp\day04\files\Test_Python.txt")
+print(text_file.read())
+text_file.close()
+
+"""
+print(text_file.readline())
+print(text_file.readline())
+print(text_file.readline())
+"""
+
+print('----------------------------------')
+
+path = 'files/Test2.txt'
+
+text_file2= open(path, 'w')
+
+text_file2.write('This is a new text file\nPython created this file')
+
+text_file2.close()
+
+print('----------------------------------')
+
+#os.remove(path)
+
