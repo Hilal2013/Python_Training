@@ -45,8 +45,8 @@ teacher = Teacher('Breanna', 45 )
 
 print(employee1)
 print(developer1)
-print(teacher)
+print(teacher) #Teacher{'name': 'Breanna', 'age': 45, 'job_title': 'Teacher', 'company_name': 'Unknown', 'salary': 0}
 
 employee1.work()
 developer1.work()
-teacher.work()
+teacher.work()#Breanna is teaching
