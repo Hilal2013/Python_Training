@@ -1,5 +1,4 @@
 
-
 class Person:
     def __init__(self, name: str = 'Unknown', age: int = 1):
         self.__name = None
