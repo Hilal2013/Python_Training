@@ -55,4 +55,12 @@ print('------------------')
 
 print(person1)
 print(person2)
-print(person3)
+print(person3)#Person{'_Person__name': 'Hazel', '_Person__age': 27}
+
+
+"""
+    def __str__(self):
+        return f'{type(self).__name__}{self.__dict__}'.replace('_Person__','')
+print(person3)#Person{'name': 'Hazel', 'age': 27}
+
+"""
